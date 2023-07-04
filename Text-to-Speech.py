@@ -18,14 +18,14 @@ root.title('GetProjects - TEXT_TO_SPEECH')
 
 
 ##heading
-Label(root, text = 'TEXT_TO_SPEECH' , font='arial 20 bold' , bg ='#2C265D').pack()
+Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#2C265D').pack()
 Label(root, text ='GetProjects' , font ='arial 15 bold', bg = '#2C265D').pack(side = BOTTOM)
 
 
 
 
 #label
-Label(root, text ='Enter Text', font ='arial 15 bold', bg ='#2C265D').place(x=20,y=60)
+Label(root, text ='Enter Text', font ='arial 15 bold', fg='white', bg ='#2C265D').place(x=20,y=60)
 
 
 ##text variable
