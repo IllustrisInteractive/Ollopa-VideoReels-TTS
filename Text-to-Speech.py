@@ -25,7 +25,7 @@ Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#2C
 
 
 #label
-Label(root, text ='Enter Text', font ='arial 17 bold', fg='white', bg ='#2C265D').place(x=20,y=60)
+Label(root, text ='Enter Text', font ='arial 17 bold', fg='white', bg ='#2C265D').place(x=20,y=100)
 
 
 ##text variable
@@ -34,7 +34,7 @@ Msg = StringVar()
 
 #Entry
 entry_field = Entry(root,textvariable =Msg, width ='50')
-entry_field.place(x=20 , y=100)
+entry_field.place(x=80 , y=140)
 
 
 ###################define function##############################
