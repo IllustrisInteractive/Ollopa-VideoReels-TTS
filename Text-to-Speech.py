@@ -19,7 +19,7 @@ root.title('GetProjects - TEXT_TO_SPEECH')
 
 ##heading
 Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#2C265D').pack()
-Label(root, text ='GetProjects' , font ='arial 15 bold', bg = '#2C265D').pack(side = BOTTOM)
+#Label(root, text ='GetProjects' , font ='arial 15 bold', bg = '#2C265D').pack(side = BOTTOM)
 
 
 
@@ -52,8 +52,8 @@ def Reset():
     Msg.set("")
 
 #Button
-Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, width =4).place(x=25, y=140)
-Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, bg = 'OrangeRed1').place(x=100,y=140)
+Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, bg = '#77DD77', width =4).place(x=25, y=140)
+Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, bg = '#DB92B8').place(x=100,y=140)
 Button(root, text = 'RESET', font='arial 15 bold', command = Reset).place(x=175 , y =140)
 
 
