@@ -11,7 +11,7 @@ from playsound import playsound
 # Example Text
 
 root = Tk()
-root.geometry('350x300')
+root.geometry('450x400')
 root.resizable(0,0)
 root.config(bg = '#2C265D')
 root.title('GetProjects - TEXT_TO_SPEECH')
@@ -25,7 +25,7 @@ Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#2C
 
 
 #label
-Label(root, text ='Enter Text', font ='arial 15 bold', fg='white', bg ='#2C265D').place(x=20,y=60)
+Label(root, text ='Enter Text', font ='arial 17 bold', fg='white', bg ='#2C265D').place(x=20,y=60)
 
 
 ##text variable
@@ -52,9 +52,9 @@ def Reset():
     Msg.set("")
 
 #Button
-Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, bg = '#77DD77', width =4).place(x=25, y=140)
-Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, bg = '#DB92B8').place(x=100,y=140)
-Button(root, text = 'RESET', font='arial 15 bold', command = Reset).place(x=175 , y =140)
+Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, bg = '#77DD77', width =4).place(x=100, y=200)
+Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, bg = '#DB92B8').place(x=185,y=200)
+Button(root, text = 'RESET', font='arial 15 bold', command = Reset).place(x=270 , y =200)
 
 
 #infinite loop to run program
