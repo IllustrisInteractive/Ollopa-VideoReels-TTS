@@ -8,6 +8,8 @@ from playsound import playsound
 
 ################### Initialized window####################
 
+# Example Text
+
 root = Tk()
 root.geometry('350x300')
 root.resizable(0,0)
