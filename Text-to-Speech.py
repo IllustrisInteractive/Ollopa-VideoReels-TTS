@@ -63,7 +63,7 @@ def Reset():
 #Test
 Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, fg='white', bg = '#8A4FBF', width =4).place(x=185, y=200)
 Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, fg='white', bg = '#8A4FBF').place(x=185,y=300)
-Button(root, text = 'RESET', font='arial 15 bold', command = Reset, fg='white', bg='#8A4FBF').place(x=185 , y =400)
+Button(root, text = 'RESET', font='arial 15 bold', command = Reset, fg='white', bg='#8A4FBF').place(x=185 , y =350)
 
 #infinite loop to run program
 root.mainloop()
