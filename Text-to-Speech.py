@@ -13,14 +13,14 @@ from playsound import playsound
 root = Tk()
 root.geometry('450x400')
 #image background
-#bg = Image.PhotoImage(file="https://discord.com/channels/1083574470578536489/1083574471228665868/1128217852755836969")
+bg = PhotoImage(file="https://discord.com/channels/1083574470578536489/1083574471228665868/1128217852755836969")
 root.resizable(0,0)
 root.config(bg = '#2C265D')
 root.title('GetProjects - TEXT_TO_SPEECH')
 
 
 ##heading
-Label(root, text = 'TEXT TO SPEECH' , font='arial 38 bold' ,fg='white', bg ='#8A4FBF').place(x=100,y=20)
+Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#8A4FBF').place(x=100,y=20)
 #Label(root, text ='GetProjects' , font ='arial 20 bold', bg = '#2C265D').pack(side = BOTTOM)
 
 
