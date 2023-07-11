@@ -13,7 +13,7 @@ from playsound import playsound
 root = Tk()
 root.geometry('450x400')
 #image background
-bg = PhotoImage(file="https://discord.com/channels/1083574470578536489/1083574471228665868/1128217852755836969")
+bg = PhotoImage(file="C:\\Users\\Cheska Gil\\Downloads\\tts.png")
 root.resizable(0,0)
 root.config(bg = '#2C265D')
 root.title('GetProjects - TEXT_TO_SPEECH')
@@ -62,8 +62,8 @@ def Reset():
 
 #Test
 Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, fg='white', bg = '#8A4FBF', width =4).place(x=185, y=200)
-Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, fg='white', bg = '#8A4FBF').place(x=185,y=225)
-Button(root, text = 'RESET', font='arial 15 bold', command = Reset, fg='white', bg='#8A4FBF').place(x=185 , y =250)
+Button(root,text = 'EXIT',font = 'arial 15 bold' , command = Exit, fg='white', bg = '#8A4FBF').place(x=185,y=300)
+Button(root, text = 'RESET', font='arial 15 bold', command = Reset, fg='white', bg='#8A4FBF').place(x=185 , y =400)
 
 #infinite loop to run program
 root.mainloop()
