@@ -27,7 +27,7 @@ Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' ,fg='white', bg ='#8A
 
 
 #label edit color
-Label(root, text ='Enter Text', font ='arial 17 bold', fg='white', bg ='#4F1964').place(x=20,y=100)
+Label(root, text ='Enter Text', font ='arial 17 bold', fg='#4F1964').place(x=20,y=100)
 
 
 ##text variable
@@ -36,7 +36,7 @@ Msg = StringVar()
 
 #Entry
 #edit
-entry_field = Entry(root,textvariable =Msg, width ='50', fg='white', bg ='#8A4FBF')
+entry_field = Entry(root,textvariable =Msg, width ='50', fg='#8A4FBF')
 entry_field.place(x=80 , y=140)
 
 
